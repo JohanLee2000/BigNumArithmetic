@@ -1,8 +1,6 @@
 
 /**
  * This RPN class acts as the calculator for LinkedLists of integers
- * @author johanlee20
- * @author georgemm
  */
 public class RPN {
 
