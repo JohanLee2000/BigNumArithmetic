@@ -2,8 +2,6 @@
 /**
  * This LinkedList class uses sentinel nodes for the head and tail
  * 
- * @author johanlee20
- * @author georgemm
  * @param <T> the data value type
  */
 public class LinkedList<T> {
