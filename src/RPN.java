@@ -109,62 +109,6 @@ public class RPN {
         return returnList;
         
     }
-
-    
-    
-
-//    /**
-//     * This method exponentiates two lists of numbers together
-//     * @param two 
-//     * @return 
-//     */
-//     public LinkedList<Integer> exponentialOneDigit(LinkedList<Integer> firstNum, LinkedList<Integer> secondNum)
-//     {
-//         Node<Integer> curr2 = secondNum.getHead().getNext();
-//         
-//         int trueIfEven = curr2.getData() % 2;
-//         int raiseToEvenPower = curr2.getData()/2;
-//         int raiseToOddPower = (curr2.getData() - 1)/2;
-//         if (trueIfEven == 0) 
-//         {
-//             //multiply curr1 by itself, then raise to power of (curr2 / 2)
-//             if (raiseToEvenPower == 0) 
-//             {
-//                 LinkedList<Integer> endResult = new LinkedList<Integer>();
-//                 endResult.addToFront(1);
-//                 return endResult;
-//             }
-//             LinkedList<Integer> squaredResult = (multiplyOneLists(firstNum, firstNum));
-//             LinkedList<Integer> tempResult = squaredResult;
-//                 for (int i = 1; i < raiseToEvenPower; i++) 
-//                 {
-//                     tempResult = multiplyOneLists(squaredResult, tempResult);
-//                 }
-//             return tempResult;
-//         }
-//         
-//         else //exponent is odd 
-//         {
-//             if (raiseToOddPower == 0) 
-//             {
-//                 LinkedList<Integer> tempList = new LinkedList<Integer>();
-//                 tempList.addToFront(1);
-//                 return multiplyOneLists(firstNum, tempList);
-//             }
-//             //mutiply curr1 by itself,  then raise to power of (curr2 -1)/2
-//             //then multiply by curr1 once after
-//             LinkedList<Integer> squaredResult = (multiplyOneLists(firstNum, firstNum));
-//             LinkedList<Integer> tempResult = squaredResult;
-//                 for (int i = 1; i < raiseToOddPower; i++) 
-//                 {
-//                     tempResult = multiplyOneLists(squaredResult, tempResult);
-//                 }
-//             
-//             return multiplyOneLists(firstNum, tempResult);
-//         }
-//         }
-//     
-     
      
 
      /**
@@ -196,8 +140,6 @@ public class RPN {
           return returnList;
          
      }
-     
-     
      
  
      
@@ -246,49 +188,6 @@ public class RPN {
      
      
      
-     
-//     /**
-//      * gets the linkedlist
-//      * converts to an int
-//      * checking if odd or even
-//      * if odd n-1/2
-//      * if even n/2 
-//      * convert to linked list
-//      * return that
-//     * @param exponent 
-//     * @return 
-//      */
-//     public LinkedList<Integer> divideListByTwo(LinkedList<Integer> exponent)
-//     {
-//         int number = toInteger(exponent);
-//         LinkedList<Integer> returnList = new LinkedList<Integer>();
-//         if (number == 1) 
-//         {
-//             returnList = toLinkedList(1);
-//             return returnList;
-//         }
-////         if (number == 0) 
-////         {
-////             returnList = toLinkedList(0);
-////             return returnList;
-////         }
-//         
-//         int trueIfEven = number % 2;
-//         if (trueIfEven == 0)
-//         {
-//             int raiseToEvenPower = number/2;
-//             returnList = toLinkedList(raiseToEvenPower);
-//             return returnList;
-//         }         
-//         else
-//         {
-//             int raiseToOddPower = (number - 1)/2;
-//             returnList = toLinkedList(raiseToOddPower);
-//             return returnList;
-//         }
-//
-//     }
-//     
      
      /**
       * exponentiate helper
