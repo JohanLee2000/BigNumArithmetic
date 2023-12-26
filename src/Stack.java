@@ -1,8 +1,7 @@
 
 /**
  * This Stack class uses LinkedLists to reference the next object in the stack
- * @author johanlee20
- * @author georgemm
+ *
  * @param <T> the data type of the value inside the stack
  */
 public class Stack<T> {
