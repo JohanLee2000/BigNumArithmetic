@@ -2,8 +2,6 @@
 /**
  * This class uses Nodes to contain data
  * 
- * @author johanlee20
- * @author georgemm
  * @param <T> the type of data value stored
  *
  */
